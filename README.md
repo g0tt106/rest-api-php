@@ -10,6 +10,7 @@ This is a simple REST API for managing products, running in Docker.
    cd your-repo
 
 2. Run the API using Docker:
+   ```sh
    docker compose up -d --build
    docker exec -it app-crud bash
    composer install
