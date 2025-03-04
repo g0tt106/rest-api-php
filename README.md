@@ -16,10 +16,13 @@ This is a simple REST API for managing products, running in Docker.
 
 3. API will be available at http://localhost:8000 (or your configured port).
 
-API Endpoints
-Method	Endpoint	Description
-GET	/products	Get all products
-GET	/products/{id}	Get a product by ID
-POST	/products	Create a new product
-PUT	/products/{id}	Update a product
-DELETE	/products/{id}	Delete a product
+## API Endpoints
+
+| Method  | Endpoint        | Description          |
+|---------|---------------|----------------------|
+| GET     | `/products`    | Get all products    |
+| GET     | `/products/{id}` | Get a product by ID |
+| POST    | `/products`    | Create a new product |
+| PUT     | `/products/{id}` | Update a product |
+| DELETE  | `/products/{id}` | Delete a product |
+
